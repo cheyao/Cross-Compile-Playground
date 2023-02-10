@@ -27,6 +27,7 @@ jobs:
       shell: bash
       run: |
         make
+        ls
         
     - uses: actions/upload-artifact@v3
       with:
